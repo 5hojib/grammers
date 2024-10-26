@@ -1,7 +1,3 @@
-# gramme.rs
-
-A set of Rust libraries to interact with Telegram's API, hence the name *(tele)gramme.rs*.
-
 ## Current status
 
 It works! The high-level interface is slowly taking shape, and it can already be used to [build
