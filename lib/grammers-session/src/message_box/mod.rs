@@ -592,10 +592,6 @@ impl MessageBox {
                     return (Some(pts.entry), None);
                 }
                 Ordering::Less => {
-                    info!(
-                        "gap on update for {:?} (local {:?}, count {:?}, remote {:?})",
-                        pts.entry, local_pts, pts.pts_count, pts.pts
-                    );
                     // TODO store chats too?
                     self.possible_gaps
                         .entry(pts.entry)
